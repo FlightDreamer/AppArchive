@@ -73,7 +73,7 @@ cmake --build .
 
 3. Сжатие без указания параметров:
 ./myapp a input.txt archive.zst
-Сжимает файл input.txt в архив archive.zst, используя 1 потока и уровень сжатия 5.
+Сжимает файл input.txt в архив archive.zst, используя 1 поток и уровень сжатия 5.
 
 4. Распаковка файла:
 ./myapp e archive.zst output.txt
