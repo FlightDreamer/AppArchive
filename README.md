@@ -89,4 +89,3 @@ set(CMAKE_TOOLCHAIN_FILE "yourpath/ArchiveApp/vcpkg/scripts/buildsystems/vcpkg.c
 
 Также у меня возникла проблема на linux что cmake не мог найти ZstdConfig.cmake в /AppArchive/vcpkg/installed/x64-linux/share/zstd, однако он там есть и называется zstdConfig.cmake
 Для решения просто переименуйте zstdConfig.cmake на ZstdConfig.cmake
-Разница лишь в том что 
