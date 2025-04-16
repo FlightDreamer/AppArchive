@@ -51,7 +51,8 @@ cmake .. -DCMAKE_TOOLCHAIN_FILE=/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake
 /path/to - здесь ваш путь к vcpkg. Например: cmake .. -DCMAKE_TOOLCHAIN_FILE=C:/Projects/Tests/ArchiveApp/vcpkg/scripts/buildsystems/vcpkg.cmake
 Соберите проект:
 cmake --build .
-Исполняемый файл archiveapp.exe будет находится в build/Debug/archiveapp.exe
+Исполняемый файл archiveapp.exe будет находится в build/Debug/archiveapp.exe если Windows.
+Если Linux(в моём случае Ubuntu) то в build с именем archiveapp
 
 4.Использование:
 Программа поддерживает два режима работы:
